@@ -8,6 +8,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Home route
 app.get("/", (req, res) => {
+  console.log('Hi from logs')
   res.send("Welcome to a basic express App");
 });
 
